@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Вселенная</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #020111, #0b1d3a);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 60px 20px;
+    background: rgba(0,0,0,0.4);
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    color: #cfcfcf;
+}
+
+.section {
+    padding: 50px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.08);
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: rgba(255,255,255,0.15);
+}
+
+footer {
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Тайны Вселенной</h1>
+    <p>Исследуй космос и звёзды</p>
+</header>
+
+<section class="section">
+    <h2>Что находится во Вселенной?</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Планеты</h3>
+            <p>Миры, вращающиеся вокруг звёзд.</p>
+        </div>
+
+        <div class="card">
+            <h3>Звёзды</h3>
+            <p>Огромные светящиеся шары газа.</p>
+        </div>
+
+        <div class="card">
+            <h3>Галактики</h3>
+            <p>Миллиарды звёзд, объединённых вместе.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Интересный факт</h2>
+    <p>
+        Во Вселенной существуют миллиарды галактик,
+        и каждая содержит миллионы звёзд.
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Космический сайт</p>
+</footer>
+
+</body>
+</html>
